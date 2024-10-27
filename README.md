@@ -13,10 +13,15 @@ This is the codebase for the [paper](https://arxiv.org/abs/2410.03868).
 
 We transformed the [World Values Survey](https://www.worldvaluessurvey.org/wvs.jsp) into natural languagestatements that describes people's values and preferences.
 
+
+
 ### Meta Data
 
+- `data/demographics_meta_data.csv` contains the meta data of the demographics questions.
 
+- `data/refined_statements_meta_data.csv` contains the meta data of the *refined* statements.
 
+- `data/statements_meta_data.csv` contains the meta data of the *polarity-grouped* statements.
 
 ### Human Label Data
 
