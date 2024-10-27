@@ -13,6 +13,10 @@ This is the codebase for the [paper](https://arxiv.org/abs/2410.03868).
 
 We transformed the [World Values Survey](https://www.worldvaluessurvey.org/wvs.jsp) into natural languagestatements that describes people's values and preferences.
 
+### Raw World Values Survey Data
+
+For downloading the raw World Values Survey data (Wave 7), please visit the official WVS [website](https://www.worldvaluessurvey.org/WVSDocumentationWV7.jsp) and follow their downloading instructions.
+
 ### Data Conversion
 
 - `data/WVS_conversion.py` contains the code for data conversion.
