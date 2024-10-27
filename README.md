@@ -9,11 +9,13 @@
 
 This is the codebase for the [paper](https://arxiv.org/abs/2410.03868).
 
-## Data
+## IndieValueCatalog Data
 
 We transformed the [World Values Survey](https://www.worldvaluessurvey.org/wvs.jsp) into natural languagestatements that describes people's values and preferences.
 
+### Data Conversion
 
+- `data/WVS_conversion.py` contains the code for data conversion.
 
 ### Meta Data
 
@@ -31,6 +33,9 @@ Please find the converted human label data [here](https://drive.google.com/drive
 
 - `demographics_in_nl_statements_combined_full_set.csv` contains converted human label data with *polarity-grouped* statements.
 
+### Data Conversion Scripts
+
+- `src/prepare_data/compile_wvs_statements.py` contains the code for data conversion.
 
 ## Citation
 
